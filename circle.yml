@@ -17,7 +17,7 @@ dependencies:
     - go version
     - glide --version
     - make bootstrap build:
-        pwd: ../gopath/src/github.com/fabric8io/kansible
+        pwd: gopath/src/github.com/fabric8io/kansible
   cache_directories:
     - vendor
 
