@@ -16,7 +16,7 @@ dependencies:
   override:
     - go version
     - glide --version
-    - make bootstrap build test:
+    - make bootstrap build:
         pwd: ../gopath/src/github.com/fabric8io/kansible
   cache_directories:
     - vendor
